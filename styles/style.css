@@ -1,0 +1,22 @@
+@import url("./header.css");
+@import url("./container.css");
+@import url("./metricas.css");
+@import url("./vagas.css");
+@import url("./classificacao.css");
+@import url("./depoimentos.css");
+@import url("./formulario.css");
+@import url("./responsive.css");
+:root{
+    --branco:#FFFFFF;
+    --cinza:#667085;
+    --vermelho:#8E2424;
+    --borda:#EAECF0;
+    --cinza-claro:#98A2B3;
+    --cor-do-rodape:#f9fafb;
+    --fonte-principal:"Inter", sans-serif;
+}
+
+body{
+    font-family: var(--fonte-principal);
+    font-weight: 600;
+}

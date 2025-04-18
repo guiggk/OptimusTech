@@ -1,0 +1,33 @@
+.classificacao{
+    display: flex;
+    flex-direction: column;
+    padding: 0 24.4%;
+}
+
+
+.classificacaoSpan{
+    font-size: 20px;
+    font-weight: 500;
+    padding: 2em 0 2em 0;
+}
+
+.classificacaoContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    margin-bottom: 2em;
+    border: 1px solid var(--borda);
+    border-radius: 16px;
+    padding: 2em 1em;
+}
+
+.classificacaoTextoContainer{
+    display: flex;
+    gap: 1em;
+}
+
+.classificacaoContainerTexto{
+    font-size: 14px;
+    color: var(--cinza);
+    font-weight: 500;
+}

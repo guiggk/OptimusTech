@@ -1,0 +1,121 @@
+
+@media (max-width: 1024px) {
+ 
+    .cabecalho {
+        align-items: center;
+        padding: 1em;
+        gap: 1em;
+    }
+
+    .cabecalhoEsquerda {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1em;
+    }
+
+    .listaMenu {
+        display: none;
+    }
+
+    .botoes {
+        align-items: center;
+        gap: 1em;
+        margin-right: 0;
+    }
+
+    .cabecalhoTitulo {
+        margin-left: 0;
+    }
+
+    
+    .container {
+        padding: 3em 1em;
+        text-align: center;
+    }
+
+    .containerTitulo {
+        font-size: 2em;
+    }
+
+    .containerTexto {
+        width: 100%;
+        font-size: 1em;
+    }
+
+    
+    .metricaContainer {
+        flex-direction: column;
+        padding: 2em 1em;
+        gap: 2em;
+    }
+
+    .metricaTexto {
+        width: 100%;
+    }
+
+   
+    .vagasContainerTitulo {
+        margin-top: 4em;
+    }
+
+    .vagasContainerImg {
+        padding: 2em 1em;
+        width: 100%;
+    }
+
+    .vagasContainerSubTitulo {
+        text-align: center;
+    }
+
+    .vagasContainerTexto {
+        text-align: center;
+        font-size: 1em;
+    }
+
+    /* Classificação */
+    .classificacao {
+        padding: 0 1em;
+    }
+
+    /* Depoimentos */
+    .depoimentos {
+        padding: 2em 1em;
+        margin: 1em;
+    }
+
+    .depoimentosTitulo {
+        font-size: 1.5em;
+    }
+
+    .depoimentosContainerTexto {
+        text-align: center;
+    }
+
+  
+    .formularioCampo {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .formularioCampoInput,
+    .formularioCampoBtn {
+        width: 100%;
+    }
+
+    .formularioContainerTitulo {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .formularioContainerTexto {
+        text-align: center;
+    }
+
+    .formularioContainerTexto2 {
+        text-align: center;
+        margin-bottom: 3em;
+    }
+
+    
+}
+

@@ -1,0 +1,25 @@
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 7em;
+}
+
+.containerSpan{
+    color: var(--vermelho);
+    margin-bottom: 1em;
+}
+
+.containerTitulo{
+    font-size: 3em;
+    margin-bottom: 0.5em;
+}
+
+.containerTexto{
+    padding-top: 0.75em;
+    width:55%;
+    text-align: center;
+    color: var(--cinza);
+    font-weight: 400;
+    font-size: 1.25em;
+}

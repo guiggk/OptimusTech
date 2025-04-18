@@ -1,0 +1,54 @@
+.formulario{
+    background-color: var(--cor-do-rodape);
+    padding: 1em;
+}
+
+.formularioContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 26px;
+    
+}
+
+.formularioContainerTitulo{
+    margin-top: 1em;
+    font-size:36px;
+
+}
+
+.formularioContainerTexto{
+    font-size:16px;
+    font-weight: 400;
+    color: var(--cinza);
+    margin-bottom: 1em;
+}
+
+.formularioCampo{
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
+
+.formularioCampoInput{
+    width:250px;
+    padding: 1em;
+    border: 1px solid var(--borda);
+    border-radius: 8px;
+}
+
+.formularioCampoBtn{
+    background-color: var(--vermelho);
+    color: var(--branco);
+    width: 110px;
+    height: 42px;
+    border-radius: 8px;
+    border:none;
+}
+
+.formularioContainerTexto2{
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--cinza-claro);
+    margin-bottom: 5em;
+}

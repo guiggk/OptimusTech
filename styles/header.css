@@ -1,0 +1,54 @@
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2em;
+}
+.cabecalhoEsquerda{
+    display: flex;
+    align-items: center;
+    gap: 5em;
+}
+
+.cabecalhoTitulo{
+    background: url("../assets/globoLogo.png") no-repeat;
+    padding: 2em;
+    margin-left: 5em;
+    background-position: left;
+    font-weight: 500;
+}
+
+.listaMenu{
+    display: flex;
+    gap: 2.5em;
+}
+
+.listaMenuLink{
+    text-decoration: none;
+    color: var(--cinza);
+    opacity: 50%;
+    
+}
+
+.botoes{
+    display: flex;
+    align-items: center;
+    gap:2em;
+    margin-right: 5em;
+}
+
+.botoesLink{
+    text-decoration: none;
+    color: var(--cinzas);
+    opacity: 50%;
+
+}
+
+.botaoCadastrar{
+    background-color: var(--vermelho);
+    opacity: 100%;
+    color: var(--branco);
+    border-radius: 8px;
+    padding: 0.9em 1.4em;
+    
+}
