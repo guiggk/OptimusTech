@@ -1,6 +1,6 @@
 # OptimusTech
 
-Bem-vindo ao repositório da landing page da **OptimusTech**! Este projeto foi a conclusão do desafio da #7DaysOfCode, aplicando meus conhecimento de html e css.
+Bem-vindo ao repositório da landing page da **OptimusTech**! Este projeto foi a conclusão do desafio da **[#7DaysOfCode](https://7daysofcode.io/)**, aplicando meus conhecimento de html e css.
 
 ## Funcionalidades
 
