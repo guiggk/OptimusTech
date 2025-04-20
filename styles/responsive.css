@@ -1,127 +1,227 @@
-
-@media (max-width: 1024px) {
- 
+@media (max-width: 768px) {
     .cabecalho {
-        align-items: center;
-        padding: 1em;
-        gap: 1em;
+      align-items: center;
+      padding: 1em;
+      gap: 1em;
     }
-
+  
     .cabecalhoEsquerda {
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 1em;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 1em;
     }
-
+  
     .listaMenu {
-        display: none;
+      display: none;
     }
-
+  
     .botoes {
-        align-items: center;
-        gap: 1em;
-        margin-right: 0;
+      align-items: center;
+      gap: 1em;
+      margin-right: 0;
     }
-
+  
     .cabecalhoTitulo {
-        margin-left: 0;
+      margin-left: 0;
     }
-
-    
+  
     .container {
-        padding: 3em 1em;
-        text-align: center;
+      padding: 3em 1em;
+      text-align: center;
     }
-
+  
     .containerTitulo {
-        font-size: 2em;
+      font-size: 2em;
     }
-
+  
     .containerTexto {
-        width: 100%;
-        font-size: 1em;
+      width: 100%;
+      font-size: 1em;
     }
-
-    
+  
     .metricaContainer {
-        flex-direction: column;
-        padding: 2em 1em;
-        gap: 2em;
-        align-items: flex-start; 
+      flex-direction: column;
+      padding: 2em 1em;
+      gap: 2em;
+      align-items: center;
     }
-    
+  
     .metricaItems {
-        align-items: flex-start; 
-        text-align: left;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
     }
-    
-    .metricaTitulo {
-        text-align: left;
-        width: 100%;
-    }
-   
+  
     .vagasContainerTitulo {
-        margin-top: 4em;
+      margin-top: 4em;
     }
-
+  
     .vagasContainerImg {
-        padding: 2em 1em;
-        width: 100%;
+      padding: 2em 1em;
+      width: 100%;
     }
-
-    .vagasContainerSubTitulo {
-        text-align: center;
-    }
-
+  
+    .vagasContainerSubTitulo,
     .vagasContainerTexto {
-        text-align: center;
-        font-size: 1em;
+      text-align: center;
+      font-size: 1em;
     }
-
-
+  
     .classificacao {
-        padding: 0 1em;
+      padding: 0 1em;
     }
-
-
+  
     .depoimentos {
-        padding: 2em 1em;
-        margin: 1em;
+      padding: 2em 1em;
+      margin: 1em;
     }
-
+  
     .depoimentosTitulo {
-        font-size: 1.5em;
+      font-size: 1.5em;
     }
-
+  
     .depoimentosContainerTexto {
-        text-align: center;
+      text-align: center;
     }
-
   
     .formularioCampo {
-        flex-direction: column;
-        align-items: stretch;
+      flex-direction: column;
+      align-items: stretch;
     }
-
+  
     .formularioCampoInput,
     .formularioCampoBtn {
-        width: 100%;
+      width: 100%;
     }
-
+  
     .formularioContainerTitulo {
-        font-size: 28px;
-        text-align: center;
+      font-size: 28px;
+      text-align: center;
     }
-
-    .formularioContainerTexto {
-        text-align: center;
-    }
-
+  
+    .formularioContainerTexto,
     .formularioContainerTexto2 {
-        text-align: center;
-        margin-bottom: 3em;
+      text-align: center;
     }
-
-    
-}
-
+  
+    .formularioContainerTexto2 {
+      margin-bottom: 3em;
+    }
+  }
+  
+ 
+  @media (min-width: 769px) and (max-width: 1024px) {
+    .cabecalho {
+      align-items: center;
+      padding: 1em;
+      gap: 1em;
+    }
+  
+    .cabecalhoEsquerda {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 1em;
+    }
+  
+    .listaMenu {
+      display: none;
+    }
+  
+    .botoes {
+      align-items: center;
+      gap: 1em;
+      margin-right: 0;
+    }
+  
+    .cabecalhoTitulo {
+      margin-left: 0;
+    }
+  
+    .container {
+      padding: 3em 1em;
+      text-align: center;
+    }
+  
+    .containerTitulo {
+      font-size: 2em;
+    }
+  
+    .containerTexto {
+      width: 100%;
+      font-size: 1em;
+    }
+  
+    .metricaContainer {
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 2em;
+      padding: 2em;
+    }
+  
+    .metricaItems {
+      flex: 1 1 200px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .vagasContainerTitulo {
+      margin-top: 4em;
+    }
+  
+    .vagasContainerImg {
+      padding: 2em 1em;
+      width: 100%;
+    }
+  
+    .vagasContainerSubTitulo,
+    .vagasContainerTexto {
+      text-align: center;
+      font-size: 1em;
+    }
+  
+    .classificacao {
+      padding: 0 1em;
+    }
+  
+    .depoimentos {
+      padding: 2em 1em;
+      margin: 1em;
+    }
+  
+    .depoimentosTitulo {
+      font-size: 1.5em;
+    }
+  
+    .depoimentosContainerTexto {
+      text-align: center;
+    }
+  
+    .formularioCampo {
+      flex-direction: column;
+      align-items: stretch;
+    }
+  
+    .formularioCampoInput,
+    .formularioCampoBtn {
+      width: 100%;
+    }
+  
+    .formularioContainerTitulo {
+      font-size: 28px;
+      text-align: center;
+    }
+  
+    .formularioContainerTexto,
+    .formularioContainerTexto2 {
+      text-align: center;
+    }
+  
+    .formularioContainerTexto2 {
+      margin-bottom: 3em;
+    }
+  }
+  
