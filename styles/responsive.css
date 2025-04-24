@@ -92,7 +92,7 @@
   
     .formularioCampoInput,
     .formularioCampoBtn {
-      width: 100%;
+      width: auto;
     }
   
     .formularioContainerTitulo {
