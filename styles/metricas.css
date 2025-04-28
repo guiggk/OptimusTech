@@ -1,7 +1,7 @@
 .metricaContainer{
     display: flex;
-    align-items: center;
     padding: 1em 7em;
+    justify-content: center;
 }
 
 .metricaItems{
